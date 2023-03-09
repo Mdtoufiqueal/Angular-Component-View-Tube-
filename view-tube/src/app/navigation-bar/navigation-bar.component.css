@@ -11,12 +11,16 @@
   align-items: center;
   }
   #search {
-  width: 400px;
-  font-size: 14px;
+    margin-top: 21px;
+    margin-right: 98px;
   }
  .icon 
  {
   margin-right: 10px;
   } 
+  #home-link {
+    text-decoration: none;
+    color: whitesmoke;
+    } 
 
 
