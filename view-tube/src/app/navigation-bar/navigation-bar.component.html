@@ -37,10 +37,16 @@
                   <h1>ViewTube</h1>
                   </a>
               </div>
-              <div id="search">
-                  <input type="text" name="searchquery" id="searchquery">
-                  <button>search</button>
-              </div>
+          
+          <div id="search">
+                <mat-form-field>
+                    <input matInput type="text" name="searchquery" id="searchquery">
+                    <button mat-icon-button>
+                    <mat-icon class="icon">search</mat-icon>
+                    </button>
+                </mat-form-field>
+            </div>
+        
               <div id="navbar">
                   <button>Notifications</button>
                   <button>Video Call</button>
